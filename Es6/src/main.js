@@ -31,8 +31,9 @@
 
 
 
+/**================ Classes=============*/
 
-// /** Main */
+// /** Main     Classes*/
 
 // let foush=new User("foush","foush@foush.com","123");
 
@@ -47,26 +48,45 @@
 
 // m1.getPackage();
 
-let name="foush"
-
-function makeUpperCase(word){
-  return word.toUpperCase();
-}
-let template=`<h1>${makeUpperCase('hello')} ,${name}</h1>
-<p>this is a simple template</p>`;
-
-document.querySelector('#template').innerHTML = template;
+// let name="foush"
 
 
+/**===================Template ============= */
 
 
+// function makeUpperCase(word){
+//   return word.toUpperCase();
+// }
+// let template=`<h1>${makeUpperCase('hello')} ,${name}</h1>
+// <p>this is a simple template</p>`;
+
+// document.querySelector('#template').innerHTML = template;
+
+/**==================== String =================== */
 
 
+let theString="hello ,my name is foush and i love programming";
 
 
+//startWith()
+//endWith()
+//includes()
+
+console.log(theString.startsWith("hello"));
+console.log(theString.endsWith("programming"));
+console.log(theString.includes("foush"));
 
 
+/**=========numbers============== */
 
+//Hex
+console.log(0xFF);
+//Binary
+console.log(0b01110);
+//octal
+console.log(0O375);
+//infinite
+console.log(Number.isFinite(Infinity));
 
 
 
